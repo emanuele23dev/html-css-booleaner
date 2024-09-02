@@ -1,0 +1,21 @@
+html,
+body,
+footer {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#sfondo_header {
+  background-color: rgb(61, 162, 244);
+  height: 200px;
+  background-image: url("../asset/images/pattern.png");
+  background-size: auto;
+}
+
+#logo-size {
+  height: 100px;
+  position: absolute;
+  top: 80px;
+  left: 250px;
+}
