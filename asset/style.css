@@ -16,6 +16,54 @@ footer {
 #logo-size {
   height: 100px;
   position: absolute;
-  top: 80px;
-  left: 250px;
+  top: 100px;
+  left: 220px;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+#primo-paragrafo{
+    color: rgb(103, 103, 103);
+    margin: 0%;
+    font-size: 20PX;
+}
+
+#blue-text{
+    color: rgb(0, 166, 255);
+}
+
+#data{
+    color: rgb(103, 103, 103);
+    margin: 0%;
+    font-size: 15PX;
+}
+
+#tim1{
+    margin-top: 20px;
+}
+
+#tim2{
+    margin-top: 0%;
+}
+
+#prima-foto{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#seconda-foto{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: 600;
+    font-size: 12px;
 }
