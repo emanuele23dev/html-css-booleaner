@@ -3,106 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index" />
-    <meta name="robots" content="follow" />
-    <link rel="icon" type="image/png" href="./asset/images/images.png" />
     <link rel="stylesheet" href="./asset/style.css" />
-    <title>The Booleaner</title>
+    <title>Booleaner</title>
   </head>
   <body>
-    <header>
-      <div id="sfondo_header">
-        <img id="logo-size" src="/asset/images/logo.svg" alt="" />
-      </div>
+    <header id="app-header">
+      <img class="logo" width="200px" src="./asset/images/logo.svg" alt="" />
     </header>
 
-    <main>
-      <section>
-        <h1>
-          Internet deve essere al servizio del "bene pubblico": il manifesto di
-          Tim Berners-Lee
-        </h1>
-        <p id="primo-paragrafo">
-          Scritto da <span id="blue-text">The Booleaner</span>
-        </p>
-        <p id="data">il 10/10/2020</p>
-        <div><img id="tim1" src="./asset/images/tim-1.jpg" alt="" /></div>
-        <div id="tim2"><img id src="./asset/images/tim-2.jpg" alt="" /></div>
-        <p id="prima-foto">
-          1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
-        </p>
-        <p id="seconda-foto">2nd Photo: Wikimedia, by Paul Clarke</p>
-      </section>
-      <section>
-        <p class="paragrafo">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          facilis voluptate adipisci? Quas repellendus ut vero in iusto laborum
-          veritatis qui doloribus alias aliquid, id est saepe velit, quisquam
-          magnam ex optio aperiam sunt, libero repellat nihil.
-          <span class="giallo"
-            >Nam iusto excepturi qui nihil corporis, modi aperiam, voluptatem
-            ipsum quasi beatae vero aliquid.</span
-          >
-          Sit accusantium aliquid eligendi quae nam ad veniam quibusdam impedit
-          blanditiis illum? Distinctio, ipsam similique dicta enim a
-          exercitationem. Quia similique est reprehenderit impedit eos eaque
-          minima? Modi ipsam similique adipisci in nobis fugiat obcaecati
-          exercitationem, hic iste sed quae ad fugit labore quam atque vitae,
-          doloribus nam veritatis.
-        </p>
-        <ul id="lista">
-          <li>
-            <p class="paragrafo">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              veniam hic cupiditate natus amet eveniet quasi, quia optio aliquam
-              molestias!
+    <main id="app-main">
+      <div class="container">
+        <article class="article-header">
+          <header>
+            <h1 class="article-title">
+              Internet deve essere al servizio del "bene pubblico": il manifesto
+              di Tim Berners-Lee
+            </h1>
+            <div class="author">
+              Scritto da <strong class="author-name">The Booleaner</strong>
+            </div>
+            <div class="date text_xs">il 10/10/2020</div>
+          </header>
+          <section class="article-content">
+            <figure>
+              <img src="./asset/images/tim-1.jpg" alt="" />
+              <img src="./asset/images/tim-2.jpg" alt="" />
+              <figcaption class="text_xs">
+                1st Photo: John S. and James L. Knight Foundation, by Scott
+                Henrichsen
+              </figcaption>
+              <figcaption class="text_xs">
+                2nd Photo: Wikimedia, by Paul Clarke
+              </figcaption>
+            </figure>
+            <p class="py-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem numquam consectetur omnis pariatur aliquam accusantium quia,
+              alias ea. Quibusdam et nam officia error officiis dolores
+              <mark id="red-bg"
+                >dolor ad numquam quia porro recusandae illum, obcaecati id
+                sequi molestiae ipsam atque veniam nemo</mark
+              >
+              nulla optio ab. Distinctio ad voluptate doloremque saepe debitis
+              animi, quaerat dolorem dignissimos nobis. Deserunt doloremque
+              provident modi sequi culpa veniam magni. Nemo aliquid architecto
+              dolores modi, natus minus explicabo exercitationem ut animi ad
+              magnam ducimus id pariatur, harum quam voluptatem commodi optio!
+              Ipsa deserunt illo nulla earum iste ipsam enim repudiandae quia
+              ipsum pariatur provident quae, sed beatae.
             </p>
-          </li>
-          <li>
-            <p class="paragrafo">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perferendis libero culpa expedita tempore fugit, ipsam tenetur
-              repellendus quasi earum animi.
+            <ul class="py-3 pl-3">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid facere nam eligendi officiis labore beatae eaque
+                quisquam, totam dolorum harum laudantium adipisci odit eveniet
+                dolore eius! Veritatis illo natus eos et ratione aliquam.
+                Reprehenderit quo ad exercitationem ab adipisci corporis!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                placeat non dolores beatae quia minus odit sit fugit nobis unde,
+                repellendus nemo inventore corporis totam dolorem nam dolorum
+                error necessitatibus voluptas? Voluptatibus molestias ex culpa
+                delectus quos eaque, qui alias.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Explicabo delectus consequatur dolore veniam consequuntur
+                quisquam quos reprehenderit itaque molestiae, culpa nam
+                perferendis nobis officia modi nulla soluta et alias quae
+                maiores quaerat omnis iure temporibus suscipit consectetur.
+                Molestias, modi quasi.
+              </li>
+            </ul>
+            <table class="border-collapse">
+              <thead class="bg-secondary">
+                <tr class="text-left">
+                  <th>Lorem, ipsum dolor.</th>
+                  <th>Lorem, ipsum dolor.</th>
+                  <th class="w-50">Lorem, ipsum dolor.</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-secondary-light">
+                  <td>Lorem, ipsum dolor.</td>
+                  <td>Lorem, ipsum dolor.</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illo, ratione harum. Repellendus ratione fugit rem facere
+                    saepe esse doloribus similique.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Lorem, ipsum dolor.</td>
+                  <td>Lorem, ipsum dolor.</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illo, ratione harum. Repellendus ratione fugit rem facere
+                    saepe esse doloribus similique.
+                  </td>
+                </tr>
+                <tr class="bg-secondary-light">
+                  <td>Lorem, ipsum dolor.</td>
+                  <td>Lorem, ipsum dolor.</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illo, ratione harum. Repellendus ratione fugit rem facere
+                    saepe esse doloribus similique.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="py-3">
+              <mark>Lorem, ipsum dolor sit amet consectetur adipisicing elit</mark>. Hic
+              autem numquam consectetur omnis pariatur aliquam accusantium quia,
+              alias ea. Quibusdam et nam officia error officiis dolores dolor ad
+              numquam quia porro recusandae illum, obcaecati id sequi molestiae
+              ipsam atque veniam nemo nulla optio ab. Distinctio ad voluptate
+              doloremque saepe debitis animi, quaerat dolorem dignissimos nobis.
+              Deserunt doloremque provident modi sequi culpa veniam magni. Nemo
+              aliquid architecto dolores modi, natus minus explicabo
+              exercitationem ut animi ad magnam ducimus id pariatur, harum quam
+              voluptatem commodi optio!
             </p>
-          </li>
-          <li>
-            <p class="paragrafo">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              provident veniam porro eaque esse? Facere in eos ex vitae quas.
-            </p>
-          </li>
-        </ul>
-        <div id="bglorem">
-          <span>Lorem ipsum dolor</span
-          ><span class="spacelorem">Lorem ipsum dolor</span
-          ><span class="spacelorem">Lorem ipsum dolor</span>
-        </div>
-        <div id="bglorem">
-          <span>Lorem ipsum dolor</span
-          ><span class="spacelorem">Lorem ipsum dolor</span
-          ><span class="spacelorem">Lorem ipsum dolor</span>
-        </div>
-        <p class="paragrafo">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          facilis voluptate adipisci? Quas repellendus ut vero in iusto laborum
-          veritatis qui doloribus alias aliquid, id est saepe velit, quisquam
-          magnam ex optio aperiam sunt, libero repellat nihil. >Nam iusto
-          excepturi qui nihil corporis, modi aperiam, voluptatem ipsum quasi
-          beatae vero aliquid. Sit accusantium aliquid eligendi quae nam ad
-          veniam quibusdam impedit blanditiis illum? Distinctio, ipsam similique
-          dicta enim a exercitationem. Quia similique est reprehenderit impedit
-          eos eaque minima?
-          <span class="giallo"
-            >Modi ipsam similique adipisci in nobis fugiat obcaecati</span
-          >
-          exercitationem, hic iste sed quae ad fugit labore quam atque vitae,
-          doloribus nam veritatis.
-        </p>
-      </section>
-      <section></section>
+          </section>
+        </article>
+      </div>
     </main>
 
-    <footer>
+    <footer class="container padding">
       <p class="text-footer">Potrebbero interessarti</p>
       <div class="box-image-footer">
         <p class="font-weight">Lorem ipsum dolor</p>
